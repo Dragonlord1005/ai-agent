@@ -8,5 +8,7 @@ load_dotenv()
 # Import the API key
 API_KEY = os.getenv("E2B_API_KEY")
 
-sandbox = Sandbox(API_KEY)
-# sandbox.close()
+sandbox = Sandbox(api_key=API_KEY)
+
+sandbox.close()
+
