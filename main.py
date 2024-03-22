@@ -11,4 +11,3 @@ API_KEY = os.getenv("E2B_API_KEY")
 sandbox = Sandbox(api_key=API_KEY)
 
 sandbox.close()
-
